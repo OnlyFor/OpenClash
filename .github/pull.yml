@@ -1,0 +1,17 @@
+version: "1"
+rules:
+  - base: master
+    upstream: vernesong:master
+    mergeMethod: merge
+  - base: core
+    upstream: vernesong:core
+    mergeMethod: merge
+  - base: dev
+    upstream: vernesong:dev
+    mergeMethod: merge
+  - base: package
+    upstream: vernesong:package
+    mergeMethod: merge
+  - base: rm
+    upstream: vernesong:rm
+    mergeMethod: merge
